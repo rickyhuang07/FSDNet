@@ -87,8 +87,8 @@ class TrainingConfig:
     min_delta: float = 0.001
 
 class EvaluationConfig:
-    load_optimal_threshold: bool = False  # ✅ flag to enable/disable loading
-    optimal_threshold_path: str = "outputs/evaluation/optimal_threshold.json"  # ✅ path to JSON
+    load_optimal_threshold: bool = False  # flag to enable/disable loading
+    optimal_threshold_path: str = "outputs/evaluation/optimal_threshold.json"  # path to JSON
 
 @dataclass
 class HardwareConfig:
