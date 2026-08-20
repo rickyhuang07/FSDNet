@@ -17,8 +17,7 @@ logger = logging.getLogger(__name__)
 
 class FSDNetDataset(Dataset):
     """
-    Dataset class for FSDNet project.
-    Loads real and fake images with proper preprocessing.
+    dataset class, preprocesses real and fake images
     """
     
     def __init__(self, 
