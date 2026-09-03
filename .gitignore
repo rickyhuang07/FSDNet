@@ -1,0 +1,15 @@
+# python
+__pycache__/
+*.py[cod]
+
+# generated output
+outputs/
+checkpoints/
+logs/
+
+# virtual environment
+venv/
+.venv/
+
+# OS files
+.DS_Store
